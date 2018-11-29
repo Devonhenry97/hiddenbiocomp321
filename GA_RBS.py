@@ -174,8 +174,8 @@ def main(): # Main Run of Code
         print(len(set(rules)))
         print('Remaining Rules : ', rules)
 
-    plt.plot(rulesFitness) # Plot a graph for all of the data produced
-    plt.ylabel('Fitness')
-    plt.xlabel('Generation')
-    plt.show()
+#    plt.plot(rulesFitness) # Plot a graph for all of the data produced
+#    plt.ylabel('Fitness')
+#    plt.xlabel('Generation')
+#    plt.show()
 main()
